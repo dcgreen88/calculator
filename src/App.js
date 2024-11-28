@@ -32,7 +32,7 @@ function App() {
         setInput(key);
       }
     },
-    [input, history]
+    [history]
   );
 
   useEffect(() => {
